@@ -1,0 +1,7 @@
+ls --> listing the files
+ls -l --> 
+ls -lh --> shows the byte for files
+ls -lrt --> shows reverse the file
+ls -al --> shows hidden file
+ls -lS --> sorting depend up on size of the file
+ls -lH --> This command will list files and directories in the current directory

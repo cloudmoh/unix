@@ -1,0 +1,10 @@
+cat > filename
+cat >> filename --> append
+* --> wildcard to search
+? --> to find charcter
+?? --> to find double charcter
+??? --> to find trible character
+more filename --> its used to view like paragraph
+less filename --> its used to view like pagination
+tac filename --> it will reverse what cat filename had
+rev filename --> if we have a text like akram --> it will mirror like marka
