@@ -1,0 +1,25 @@
+cat -n 
+head --> print first 10 lines of data
+head -5 filename 
+tail --> bottom of the text
+tail -5 filename 
+wc --> wordcount in afile
+wc filename --> words lines charcter in file
+wc -l filename -> line
+wc -w filename --> words
+wc -c filename --> character
+space is d limit 
+| --> known as pip
+sort filename --> sort the file 
+sort -r --> reverse base sort
+sort -n --> number base sort
+sort -nr --> sort in descending order
+sort -k1 filename --> columner sort
+sort -k1r filename --> revese the columner sort
+rmdir --> remove the directory
+rm --> remove the file
+rm -rf --> remove the file or dir forcefully
+sort -t'|' -k2 ano
+rm filename* or ? --> remove the file wildcardly
+cp filename ./directory/filename
+
