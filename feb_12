@@ -50,4 +50,6 @@ zip filename.zip filename -->
 
 unzip filename.zip
 
+tree --> structure of files and directories
 
+tldr
