@@ -1,0 +1,53 @@
+echo "content" > filename --> its used to write a content in a file
+
+shred filename --> its used to delete the content in file
+
+cp file ./newdirectory/file --> to copy the files in to new directory
+
+mv file ./newdir/file --> move the files in new directory
+
+touch -d date filename --> create a file in future
+
+touch -d YYYY-MM-DD filename 
+
+sudo useradd name --> create a user
+
+sudo su name --> log in to the username 
+
+sudo adduser name --> to create parameters
+
+ln -s --> to link in to file
+
+finger username --> inspect about the user
+
+which (commands) --> locate a command
+
+whereis (commands) -->  locate the binary, source, and manual page files for a command
+
+wget url --> to download from internet 
+
+curl url --> same as wget
+
+cmp file1 file2 --> compare between those two file
+ 
+htop  - interactive process viewer
+
+top   - display Linux processes
+
+free  - Display amount of free and used memory in the system
+
+kill  - send a signal to a process
+
+ufw   - program for managing a netfilter firewall
+
+ping  - send ICMP ECHO_REQUEST to network hosts
+
+netstat - Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
+
+diff file1 file2 --> exact diffbetween those two files
+
+zip filename.zip filename --> 
+
+unzip filename.zip
+
+
