@@ -22,4 +22,4 @@ rm -rf --> remove the file or dir forcefully
 sort -t'|' -k2 ano
 rm filename* or ? --> remove the file wildcardly
 cp filename ./directory/filename
-
+cp -p filename ./directory --> copy as same time owner 
