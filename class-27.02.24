@@ -1,0 +1,36 @@
+NF - number of field
+NR - number of row
+FS - Field seprator
+
+awk '{print $2}' filename
+awk '{print $2}' FS="|"  names
+awk '{print $2}' FS=","  names
+sed s/word/replaceword/Ig filename
+sed -i filename s/word/replaceword/g filename --> permanently replaced 
+sed -i.nb.cpy filename s/word/replaceword/g filename --> save in to nb.cpy and permanently replaced
+
+======================================================================================================
+
+cp:
+
+SCP: (Secure Copy)--> here we apply encryption and decryption process (converted as cypher text format)
+
+scp 
+
+cp the file within the same machine.
+we can cp the file from local machine to remote machine/server machine
+cp the file from remote machine to local machine.
+cp the file between two remote servers.
+
+remote to local copy
+scp userid@ipaddress:/remoteserver1/dir/file /home/
+passwd : 
+
+local to remote
+scp /home/file userid@ipaddress:/remoteserver1/
+
+
+between two remote servers
+
+scp userid@ipaddress:/remoteserver1/dir/file scp userid@ipaddress:/remoteserver2/dir/file
+
