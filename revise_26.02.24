@@ -1,0 +1,47 @@
+cut -b 1,2,3 filename
+cut -c1 filename
+cut -f 
+cut -d 'a' -f1 filename | tail -2
+paste filename
+cat filename | paste - - - 
+paste -d file1 file2
+paste -s file1 file2
+paste -s -d file1 file2
+tr 'a' 'B' filenaame
+file filename 
+locate filename 
+sudo updatedb
+find ~ -type f -name 'filename'
+find . -type f -iname 'filename'
+find ~ -type d -size +(1-9) 
+find . -type l -mmin +,-
+find / -type f -mtime 
+find ~ -type d -perm
+tar -cvf my_tar.tar *txt --> create a tar file
+tar -xvf my_tar.tar --> create a extract file
+tar -tvf my_tar.tar --> able to view the file
+gzip filename --> used to compress the file .gz
+gunzip filename.gz --> used to uncompress the file.gz
+bzip -->
+bunzip -->
+zcat --> similar to cat command
+zmore --> similar to more command
+zless --> similar to less command
+ps --> process of an id
+pgrep 
+pidof
+kill
+pkill
+top 
+P
+T
+M
+zgrep --> similar to grep
+zgrep -i file.gz
+sed -n 'p' filename --> print all the lines of file
+sed -n '1p' filename --> print only the first line of a file
+sed -n '1p;4p' file --> prints 1st and 4th line of a file
+sed -n '1!p' file --> print except the first line
+sed -n '$n' file --> print last line of file
+
+
