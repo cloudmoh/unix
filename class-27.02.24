@@ -33,4 +33,16 @@ scp /home/file userid@ipaddress:/remoteserver1/
 between two remote servers
 
 scp userid@ipaddress:/remoteserver1/dir/file scp userid@ipaddress:/remoteserver2/dir/file
+=======================================================================================================
+Copy a File from Local to Remote:
+scp /path/to/local/file.txt user@remote_host:/path/to/destination/
 
+Copy a File from Remote to Local:
+scp user@remote_host:/path/to/remote/file.txt /path/to/local/destination/
+
+Copy a Directory from Local to Remote:
+scp -r /path/to/local/directory user@remote_host:/path/to/destination/
+
+Copy a Directory from Remote to Local:
+scp -r user@remote_host:/path/to/remote/directory /path/to/local/destination/
+=======================================================================================================
